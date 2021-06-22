@@ -1,0 +1,95 @@
+
+main {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+    max-width: 100%;
+    background-color: rgb(252, 247, 236);
+}
+
+#name-tag-container {
+    border: solid black 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.name-tag {
+    height: 280px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 5px 5px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+aside {
+    border-left: solid black 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(254, 254, 241);
+}
+
+.top, .bottom {
+    background-color: red;
+    width: 100%;
+}
+
+.top {
+    border-radius: 5px 5px 0 0;
+}
+
+.middle {
+    background-color: white;
+    font-family: cursive, sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.bottom {
+    height: 35px;
+    padding-top: 10px;
+    border-radius: 0 0 5px 5px;
+}
+
+.top h1, .top h2 {
+    text-align: center;
+    margin: 0;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+header {
+    text-align: center;
+    border-bottom: solid black 1px;
+    background-color: rgb(242, 66, 22);
+    padding-top: 10px;
+}
+
+footer {
+    border-top: solid black 1px;
+    text-align: center;
+    padding: 10px 10px;
+    background-color: rgb(242, 66, 22);
+    color: whitesmoke;
+}
+
+
+
+
+

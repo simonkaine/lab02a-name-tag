@@ -14,40 +14,58 @@
     <div id="name-tag-container">
 
         <header>
-            <h1>This is a static Name Tag site</h1>
+            <h1>Name Tag site with JavaScript</h1>
         </header>
 
         <main>
-
-            <div class="name-tag">
-
-                <section class="top">
+            
+            <div id="nameTag" class="name-tag">
+                
+                <section class="top" id="topSection">
                     <h1>Hello</h1>
                     <h2>my name is</h2>
                 </section>
-                <section class="middle">Simon Kaine</section>
-                <section class="bottom"></section>
+                <section class="middle" id="nameSection">Simon Kaine</section>
+                <section id="pronouns-input"></section>
+                <section class="bottom" id="bottomSection"></section>
 
             </div>
 
+            
+
             <div class="aside-content">
                 <aside>
-                    <h2>People</h2>
-                    <P>
-                        Sugar plum soufflé soufflé sesame snaps chocolate bar. Gummi bears muffin topping donut.
-                        Liquorice
-                        gummies cheesecake jelly-o ice cream. Jujubes tootsie roll cheesecake candy gingerbread carrot
-                        cake
-                        fruitcake cookie bonbon. Wafer candy jelly. Croissant tootsie roll tiramisu bonbon.
-                    </P>
-                    <p>Bear claw jelly bear claw chocolate chupa chups. Gummies sweet roll chocolate cotton candy
-                        chocolate cake topping icing biscuit soufflé. Danish powder toffee candy oat cake icing ice
-                        cream caramels. Tart candy pudding pudding wafer soufflé biscuit halvah. Croissant croissant
-                        jelly beans. Sweet roll lemon drops cotton candy lemon drops marzipan sesame snaps bear claw
-                        jujubes marzipan. Carrot cake donut apple pie marshmallow gummi bears ice cream tootsie roll.
-                        Caramels lemon drops brownie cheesecake icing candy. Topping liquorice gummi bears cake bonbon
-                        sesame snaps. Chupa chups marzipan jelly-o sugar plum caramels chocolate liquorice oat cake.</p>
+                    <h2>Change your name:</h2>
 
+                    <section class="change-name">
+                    <input type="text" name="name" id="nameInput">
+                    <button id="submit" class="buttons">Update</button>
+                    </section>
+
+                    <h2>Choose ya Pronouns:</h2>
+
+                    <section class="pronoun-list">
+                    <select name="pronouns" id="selection">
+
+                        <option>Ze/Hir/Zir</option>
+                        <option>They/Them</option>
+                        <option>She/Her</option>
+                        <option>He/Him</option>
+                        <option>She/They</option>
+                        <option>He/They</option>
+    
+                    </select>
+                    <button id="pronoun-button">Update</button>
+                    </section>
+
+                    <h2>Change Name Tag Color:</h2>
+
+                    <section class="buttons">
+                    <button id="pinkButton">Pink</button>
+                    <button id="greenButton">Light Green</button>
+                    <button id="blueButton">Light blue</button>
+                    </section>
+                    
                     <p>Jelly chocolate bar wafer cookie lemon drops jujubes fruitcake. Halvah marshmallow tootsie roll
                         chocolate bar ice cream. Chocolate chocolate lemon drops chupa chups. Candy dessert fruitcake
                         bear claw biscuit carrot cake icing. Cheesecake macaroon chupa chups fruitcake jujubes soufflé
@@ -65,7 +83,7 @@
         </footer>
 
     </div>
-
+<script type="module" src="name-tag.js"></script>
 </body>
 
 </html>
